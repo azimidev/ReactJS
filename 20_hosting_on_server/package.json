@@ -1,0 +1,30 @@
+{
+  "name": "bulletin-board",
+  "version": "1.0.0",
+  "description": "A ReactJS App",
+  "main": "Note.js",
+  "scripts": {
+    "build": "babel js -d built",
+    "start": "open http://localhost:3000 & httpster -p 3000"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "bulletin",
+    "board"
+  ],
+  "author": "Amir Hassan Azimi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-react": "^6.5.0"
+  },
+  "dependencies": {
+    "httpster": "^1.0.3"
+  }
+}
